@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+OVERVIEW:
+
+This porject was created using react router to obtain client side routing when navigating to different windows of the site. Also, the app implements Context API since I needed the save data at different parts of the site(components). Without Context API I would have had to move the state to the APP and then from there pass it down to where it was needed as props. I also implmlemented a paypal sandbox to simulate transactions and redirecting once the purchase is complete with the router props(match, history, location).
+
 ## Available Scripts
 
 In the project directory, you can run:
